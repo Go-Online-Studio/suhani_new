@@ -1,0 +1,291 @@
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1199.98px) {
+  .hero-floating-stats {
+    display: none;
+  }
+
+  .experience-badge {
+    left: auto;
+    right: -20px;
+  }
+  .navbar-nav a.nav-link {
+    font-size: 0.7rem;
+    padding: 8px 10px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-content {
+    padding-right: 0;
+    padding-top: 40px;
+  }
+  #contact-form .about-content {
+    padding-top: 0px;
+  }
+
+  .experience-badge {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .about-image-wrapper {
+    text-align: center;
+  }
+
+  .faq-visual {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .btn-sharp {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+
+  .services-carousel-wrapper {
+    padding: 0;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .gallery-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer-section {
+    text-align: center;
+  }
+  .footer-section .brand-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-links {
+    justify-content: center;
+  }
+  .addressLi {
+    max-width: 216px;
+  }
+
+  .testimonial-card {
+    padding: 30px 20px;
+  }
+
+  .filter-buttons {
+    gap: 10px;
+  }
+
+  .filter-btn {
+    padding: 10px 20px;
+    font-size: 0.7rem;
+  }
+  .hero-pagination-wrapper {
+    bottom: 10px;
+    line-height: 01;
+  }
+
+  .heroSwiper .swiper-pagination-bullet {
+    margin: 0 4px !important;
+  }
+
+  .stat-card {
+    padding: 20px 15px;
+  }
+  .about-image-wrapper {
+    padding: 12px 0;
+  }
+  .section_padding {
+    padding: 60px 0;
+  }
+  .faq-desc {
+    margin-bottom: 0px;
+  }
+  .faq-header {
+    margin-bottom: 0;
+  }
+  .footer-top {
+    padding: 50px 0 50px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ===== ABOUT PAGE RESPONSIVE ===== */
+
+@media (max-width: 991.98px) {
+ 
+
+  .capabilities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-timeline {
+    padding-left: 20px;
+  }
+
+  .process-step {
+    gap: 20px;
+  }
+
+  .step-number {
+    width: 60px;
+    height: 60px;
+    font-size: 1.4rem;
+  }
+
+  .step-connector {
+    left: 29px;
+    top: 60px;
+  }
+
+  /* Values Section */
+  .value-number {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .heroPadding{
+    padding-top: calc(50px + var(--nav-height)) !important;
+  }
+
+  .floating-badge {
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+  }
+
+  .badge-number {
+    font-size: 2.2rem;
+  }
+
+  .highlight-item {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .process-step {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .step-connector {
+    display: none;
+  }
+
+  .step-content {
+    padding-top: 0;
+  }
+
+  .stat-box {
+    margin-bottom: 20px;
+  }
+  .mission-card {
+  padding: 20px 12px;
+}
+.capability-item {
+    padding: 20px 12px;
+}
+.process-timeline {
+    padding-left: 0;
+  }
+
+.GalleryMainItems{
+  width: 50%;
+}
+}
+
+@media (max-width: 575.98px) {
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .floating-badge {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: block;
+    transform: none !important;
+  }
+
+  .story-highlights {
+    margin-top: 30px;
+  }
+
+  .highlight-item {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .value-card {
+    padding: 30px 20px;
+  }
+  .GalleryMainItems{
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .CONTACT_CARDS .btn-service{
+    font-size: 12px;
+  }
+}

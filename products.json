@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wave-board",
+    "name": "Architectural Wave Board",
+    "category": "3D Wall Panels",
+    "shortDesc": "Premium CNC-sculpted textures for high-end interiors.",
+    "fullDesc": "Transform plain walls into dynamic architectural features. Our Wave Boards are precision-carved using 3-axis CNC technology to create seamless, flowing patterns that play with light and shadow.",
+    "specs": {
+      "Material": "MDF / WPC / Solid Wood",
+      "Thickness": "12mm - 25mm",
+      "Size": "8ft x 4ft (Customizable)",
+      "Finish": "Raw / PU Polish / Duco"
+    },
+    "features": [
+      "Seamless Continuity",
+      "Water Resistant (WPC)",
+      "Acoustic Diffusion",
+      "Zero-Joint Installation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1711418235334-8895331a6cf9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1716191300020-b52dec5b70a8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1740209475472-aa7d280f7452?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
+  },
+  {
+    "id": "3d-carving",
+    "name": "3D Wood Carving",
+    "category": "Wood Artistry",
+    "shortDesc": "Intricate 3D sculptures and relief carvings with exceptional depth.",
+    "fullDesc": "Bring your artistic vision to life with our high-precision 3D wood carving services. From detailed mythological figures to contemporary abstract art, our 5-axis machines can sculpt complex geometries with lifelike detail.",
+    "specs": {
+      "Material": "Teak / Oak / MDF / Solid Wood",
+      "Max Depth": "Up to 150mm",
+      "Precision": "0.01mm",
+      "Finish": "Hand Sanded / Polished"
+    },
+    "features": [
+      "High Definition Detail",
+      "Custom Artifact Creation",
+      "Restoration Work",
+      "Multi-Axis Machining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1170&q=80",
+      "https://images.unsplash.com/photo-1611117775350-ac3950990985?w=1170&q=80",
+      "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=1170&q=80"
+    ]
+  },
+  {
+    "id": "2d-carving",
+    "name": "2D & V-Groove Carving",
+    "category": "Surface Engraving",
+    "shortDesc": "Precision flat engraving for signage, panels, and decorative elements.",
+    "fullDesc": "Perfect for doors, cabinets, and branding elements. Our 2D carving service offers clean, sharp lines and intricate V-groove patterns that add sophistication to any flat surface.",
+    "specs": {
+      "Material": "MDF / Acrylic / PVC / Wood",
+      "Thickness": "Any Sheet Thickness",
+      "Tooling": "V-Bit / Ball Nose / End Mill",
+      "Application": "Signage / Furniture / Partitions"
+    },
+    "features": [
+      "Clean Edge Quality",
+      "Vector Precision",
+      "Rapid Prototyping",
+      "Batch Production"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1170&q=80",
+      "https://images.unsplash.com/photo-1620619767323-b95a89183081?w=1170&q=80",
+      "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=1170&q=80"
+    ]
+  },
+  {
+    "id": "metal-cnc",
+    "name": "Precision Metal CNC",
+    "category": "Industrial Machining",
+    "shortDesc": "Industrial-grade metal machining for critical parts and dies.",
+    "fullDesc": "When tolerances matter, trust our Metal CNC services. We handle steel, aluminum, and brass with micron-level accuracy, suitable for molds, dies, and aerospace components.",
+    "specs": {
+      "Material": "Mild Steel / Aluminum / Brass",
+      "Tolerance": "+/- 0.005mm",
+      "Machining": "Milling / Turning / Drilling",
+      "Capacity": "Heavy Duty Industrial"
+    },
+    "features": [
+      "Micron Accuracy",
+      "Complex Geometries",
+      "Hard Material Machining",
+      "CAD/CAM Integration"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1170&q=80",
+      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=1170&q=80",
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1170&q=80"
+    ]
+  }
+]
