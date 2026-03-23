@@ -47,12 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="updates.html">
-                            <span class="nav-indicator"></span>
-                            UPDATES
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="gallery.html">
                             <span class="nav-indicator"></span>
                             GALLERY
@@ -101,7 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         <li><a class="dropdown-item" href="product-view.html?id=metal-cnc">METAL CNC</a></li>
                     </ul>
                 </li>
-                <li><a href="updates.html">UPDATES</a></li>
                 <li><a href="gallery.html">GALLERY</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>

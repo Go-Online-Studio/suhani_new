@@ -111,7 +111,7 @@ function loadProduct(data) {
         specsTable.innerHTML = Object.entries(data.specs).map(([k, v]) => `
             <tr class="spec-row">
                 <td class="text_brand py-3 ps-3 w-25 border-end border-secondary border-opacity-25 text-uppercase small">${k}</td>
-                <td class="text-white py-3 ps-3 fw-bold">${v}</td>
+                <td class="text-white py-3 ps-3">${v}</td>
             </tr>
         `).join('');
     }
@@ -122,7 +122,7 @@ function loadProduct(data) {
         featuresList.innerHTML = data.features.map(f => `
             <li class="col-md-6 d-flex align-items-center mb-2">
                 <i class="bi bi-caret-right-fill colorMain me-2"></i>
-                <span class="text-light small text-uppercase fw-bold">${f}</span>
+                <span class="text-light small text-uppercase">${f}</span>
             </li>
         `).join('');
     }

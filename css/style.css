@@ -2,6 +2,21 @@
    SUHANI INDUSTRIES - AGGRESSIVE INDUSTRIAL
    ======================================== */
 
+@font-face {
+    font-family: 'Typold';
+    src: url('../fonts/Typold-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Room';
+    src: url('../fonts/Room.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* ===== CSS VARIABLES ===== */
 :root {
   /* PRIMARY ACCENT - Burnt Orange */
@@ -36,9 +51,9 @@
   --brand-height: 70px;
 
   /* Typography */
-  --font-tech: "Orbitron", sans-serif;
-  --font-heading: "Exo 2", sans-serif;
-  --font-body: "Rajdhani", sans-serif;
+  --font-tech: "Room", sans-serif;
+  --font-heading: "Room", sans-serif;
+  --font-body: "Typold", sans-serif;
 
   /* Fluid Typography */
   --fs-display: clamp(26px, 5vw, 4rem);
@@ -158,7 +173,7 @@ textarea {
 .label-text {
   font-family: var(--font-tech);
   font-size: var(--fs-6);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 4px;
   color: var(--steel-dark);
   text-transform: uppercase;
@@ -168,7 +183,7 @@ textarea {
 .section-title {
   font-family: var(--font-tech);
   font-size: var(--fs-1);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.2;
@@ -264,7 +279,7 @@ textarea {
 .brand-text {
   font-family: var(--font-tech);
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 3px;
   color: var(--void-black);
 }
@@ -288,7 +303,7 @@ textarea {
 .navbar-nav .nav-link {
   font-family: var(--font-tech);
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 2px;
   color: var(--void-black);
   padding: 10px 20px !important;
@@ -350,7 +365,7 @@ textarea {
 .dropdown-item {
   font-family: var(--font-tech);
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   color: var(--void-black);
   padding: 10px 25px;
@@ -371,7 +386,7 @@ textarea {
 .btn-neon {
   font-family: var(--font-tech);
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   color: var(--text-white);
   background: var(--neon-red);
@@ -485,7 +500,7 @@ textarea {
   display: block;
   font-family: var(--font-tech);
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 3px;
   padding: 20px 0;
   color: var(--void-black);
@@ -558,7 +573,7 @@ textarea {
   color: var(--void-black);
   font-family: var(--font-tech);
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 400;
   padding: 12px 15px;
   white-space: normal;
   /* Allow branding text to wrap if needed */
@@ -610,7 +625,49 @@ textarea {
   /* Consume full available height */
   display: flex;
   align-items: center;
-  padding: 120px 0 60px;
+  padding: 170px 0 60px;
+}
+
+.marquee {
+    position: absolute;
+    top: 86px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 54px;
+    color: var(--neon-red-bright);
+    font-weight: bold;
+    /* -webkit-text-stroke: 6px #ffffff; */
+}
+
+.marquee-track {
+    display: inline-flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+
+.marquee-track .content {
+    display: flex;
+}
+
+.marquee-track span {
+    margin-right: 1rem;
+    font-family: 'FONTSPRING DEMO - Geometos Neue Ultra','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Front marquee */
+.marquee-front {
+    z-index: 3;
 }
 
 .hero-bg {
@@ -683,7 +740,7 @@ textarea {
   gap: 15px;
   font-family: var(--font-tech);
   font-size: var(--fs-6);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 4px;
   color: var(--neon-red);
   padding: 10px 20px;
@@ -704,7 +761,7 @@ textarea {
 .hero-title {
   font-family: var(--font-tech);
   font-size: var(--fs-display);
-  font-weight: 800;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
   line-height: 1.1;
@@ -730,7 +787,7 @@ textarea {
 .btn-sharp {
   font-family: var(--font-tech);
   font-size: var(--fs-6);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 18px 35px;
@@ -815,7 +872,7 @@ textarea {
 .stat-value {
   font-family: var(--font-tech);
   font-size: var(--fs-2);
-  font-weight: 700;
+  font-weight: 400;
   color: var(--neon-red);
   display: block;
   text-shadow: var(--neon-glow-sm);
@@ -968,14 +1025,14 @@ textarea {
 .stat-number {
   font-family: var(--font-tech);
   font-size: var(--fs-1);
-  font-weight: 700;
+  font-weight: 400;
   color: var(--neon-red-dark);
 }
 
 .stat-suffix {
   font-family: var(--font-tech);
   font-size: var(--fs-2);
-  font-weight: 700;
+  font-weight: 400;
   color: var(--neon-red);
   text-shadow: var(--neon-glow-sm);
 }
@@ -1062,7 +1119,7 @@ textarea {
 .experience-badge .badge-number {
   font-family: var(--font-tech);
   font-size: var(--fs-1);
-  font-weight: 800;
+  font-weight: 400;
   color: var(--text-white);
   display: block;
   line-height: 1;
@@ -1213,7 +1270,7 @@ textarea {
   left: 15px;
   font-family: var(--font-tech);
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--neon-red);
   padding: 5px 15px;
   background: rgba(0, 0, 0, 0.8);
@@ -1228,7 +1285,7 @@ textarea {
 .card-title {
   font-family: var(--font-tech);
   font-size: var(--fs-4);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 2px;
   margin-bottom: 15px;
   color: var(--steel-light);
@@ -1243,7 +1300,7 @@ textarea {
 .btn-service {
   font-family: var(--font-tech);
   font-size: var(--fs-6);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   color: var(--neon-red);
   background: transparent;
@@ -1313,7 +1370,7 @@ textarea {
 
 .nav-counter .current {
   color: var(--neon-red);
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .services-cta {
@@ -1341,7 +1398,7 @@ textarea {
 .filter-btn {
   font-family: var(--font-tech);
   font-size: var(--fs-6);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   color: var(--steel-light);
   background: transparent;
@@ -1442,7 +1499,7 @@ textarea {
 .item-title {
   font-family: var(--font-tech);
   font-size: var(--fs-4);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   color: #fdfbd4;
   display: block;
@@ -1525,7 +1582,7 @@ textarea {
 .question-mark {
   font-family: var(--font-tech);
   font-size: 8rem;
-  font-weight: 800;
+  font-weight: 400;
   color: var(--steel-light);
   opacity: 0.2;
   position: absolute;
@@ -1612,7 +1669,7 @@ textarea {
 .trigger-number {
   font-family: var(--font-tech);
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--steel-dark);
   opacity: 0.5;
 }
@@ -1621,7 +1678,7 @@ textarea {
   flex: 1;
   font-family: var(--font-body);
   font-size: var(--fs-4);
-  font-weight: 600;
+  font-weight: 400;
   color: var(--steel-light);
 }
 
@@ -1717,7 +1774,7 @@ textarea {
   justify-content: center;
   font-family: var(--font-tech);
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--text-white);
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
@@ -1729,7 +1786,7 @@ textarea {
 .author-name {
   font-family: var(--font-tech);
   font-size: var(--fs-5);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   color: var(--steel-light);
   display: block;
@@ -1846,7 +1903,7 @@ textarea {
 .cta-title {
   font-family: var(--font-tech);
   font-size: var(--fs-1);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 20px;
@@ -1917,7 +1974,7 @@ textarea {
 .footer-title {
   font-family: var(--font-tech);
   font-size: var(--fs-5);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   color: var(--neon-red-dark);
   margin-bottom: 25px;
@@ -2122,7 +2179,7 @@ textarea {
 .page-title {
   font-size: clamp(2.5rem, 6vw, 4rem);
   font-family: var(--font-display);
-  font-weight: 900;
+  font-weight: 400;
   color: var(--text-white);
   margin-bottom: 20px;
   line-height: 1.2;
@@ -2171,7 +2228,7 @@ textarea {
 .floating-badge .badge-number {
   font-size: 3rem;
   font-family: var(--font-display);
-  font-weight: 900;
+  font-weight: 400;
   color: var(--neon-red);
   line-height: 1;
 }
@@ -2179,7 +2236,7 @@ textarea {
 .badge-label {
   font-size: var(--fs-6);
   color: var(--neon-red-dark);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -2367,7 +2424,7 @@ textarea {
   font-size: var(--fs-4);
   color: var(--neon-red-dark);
   margin-bottom: 15px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .value-desc {
@@ -2383,7 +2440,7 @@ textarea {
   right: 20px;
   font-size: 4rem;
   font-family: var(--font-display);
-  font-weight: 900;
+  font-weight: 400;
   color: rgba(113, 54, 0, 0.08);
   line-height: 1;
   transition: var(--transition);
@@ -2488,7 +2545,7 @@ textarea {
   justify-content: center;
   font-size: 1.8rem;
   font-family: var(--font-display);
-  font-weight: 900;
+  font-weight: 400;
   color: #ffffff;
   flex-shrink: 0;
   clip-path: polygon(0 0,
@@ -2581,7 +2638,7 @@ textarea {
 .stat-number {
   font-size: 3.5rem;
   font-family: var(--font-display);
-  font-weight: 900;
+  font-weight: 400;
   color: var(--neon-red-dark);
   line-height: 1;
   display: inline-block;
@@ -2590,7 +2647,7 @@ textarea {
 .stat-suffix {
   font-size: 2rem;
   font-family: var(--font-display);
-  font-weight: 900;
+  font-weight: 400;
   color: var(--neon-red);
   line-height: 1;
   display: inline-block;
@@ -2601,7 +2658,7 @@ textarea {
   font-size: var(--fs-6);
   color: var(--neon-red-dark);
   margin-top: 15px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -2656,7 +2713,7 @@ textarea {
   font-size: var(--fs-4);
   color: var(--neon-red-dark);
   margin-bottom: 15px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .advantage-desc {
@@ -2975,7 +3032,7 @@ select.industrial-input option {
   padding: 6px 15px;
   font-family: var(--font-tech);
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1.5px;
   z-index: 2;
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
@@ -3007,7 +3064,7 @@ select.industrial-input option {
 .blog-title {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -3041,7 +3098,7 @@ select.industrial-input option {
 .read-more {
   font-family: var(--font-tech);
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--neon-red);
   display: inline-flex;
   align-items: center;
@@ -3158,3 +3215,4 @@ select.industrial-input option {
 .table>:not(caption)>*>*{
   background-color: var(--steel-light) !important;
 }
+

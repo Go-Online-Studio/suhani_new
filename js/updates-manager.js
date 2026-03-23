@@ -87,7 +87,7 @@ class UpdatesManager {
                                  onmouseover="this.style.transform='scale(1.1)'" 
                                  onmouseout="this.style.transform='scale(1)'"
                                  alt="${post.title}">
-                            <div class="position-absolute top-0 end-0 bg-danger text-white px-3 py-1 small fw-bold" 
+                            <div class="position-absolute top-0 end-0 bg-danger text-white px-3 py-1 small" 
                                  style="clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);">
                                 ${post.category}
                             </div>
@@ -97,7 +97,7 @@ class UpdatesManager {
                             <small class="text-secondary d-block mb-2">
                                 <i class="bi bi-calendar3 me-2"></i>${new Date(post.date).toLocaleDateString()}
                             </small>
-                            <h5 class="card-title text-uppercase fw-bold mb-3" style="font-family: 'Rajdhani', sans-serif;">
+                            <h5 class="card-title text-uppercase mb-3" style="font-family: 'Typold', sans-serif;">
                                 <a href="${post.url}" class="text-white text-decoration-none hover-red">${post.title}</a>
                             </h5>
                             <p class="card-text text-secondary small mb-4">${post.excerpt}</p>
