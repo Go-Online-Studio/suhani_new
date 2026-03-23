@@ -652,7 +652,7 @@ textarea {
 
 .marquee-track span {
     margin-right: 1rem;
-    font-family: 'FONTSPRING DEMO - Geometos Neue Ultra','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Room', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 @keyframes scroll {
