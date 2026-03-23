@@ -20,8 +20,8 @@
 /* ===== CSS VARIABLES ===== */
 :root {
   /* PRIMARY ACCENT - Burnt Orange */
-  --neon-red: #c05800;
-  --neon-red-bright: #d06800;
+  --neon-red: #dd7e30;
+  --neon-red-bright: #e6811d;
   --lightBrown: #fdfbd4;
   --neon-red-dark: #713600;
   --neon-glow:
@@ -645,8 +645,15 @@ textarea {
     animation: scroll 30s linear infinite;
 }
 
+.marquee-track .content img{
+  width: 26px;
+  height: 26px;
+  margin-top: -15px;
+  display: inline-block;
+}
 .marquee-track .content {
     display: flex;
+    color: #a32627;
 }
 
 .marquee-track span {
@@ -864,7 +871,9 @@ textarea {
 .floating-stat {
   text-align: center;
   padding: 20px 30px;
-  background: rgba(253, 251, 212, 0.92);
+  background: url('../images/WoodDark.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
   border-left: 3px solid var(--neon-red);
 }
 
@@ -872,7 +881,7 @@ textarea {
   font-family: var(--font-tech);
   font-size: var(--fs-2);
   font-weight: 400;
-  color: var(--neon-red);
+  color: var(--lightBrown);
   display: block;
   text-shadow: var(--neon-glow-sm);
 }
@@ -881,7 +890,6 @@ textarea {
   font-family: var(--font-tech);
   font-size: var(--fs-6);
   letter-spacing: 2px;
-  color: var(--neon-red-dark);
 }
 
 /* Hero Pagination */
@@ -952,9 +960,18 @@ textarea {
 
 /* ===== STATS SECTION ===== */
 .stats-section {
-  background: #ffffff;
   position: relative;
   overflow: hidden;
+}
+.stats-section{
+  background: linear-gradient(#ffffff77,#ffffff77), url('../images/BackPatternShuhani.svg') no-repeat,url('../images/BackPatternShuhani2.svg') no-repeat;
+  background-size: cover,auto 100%,auto 100%;
+  background-position: center,left,right;
+}
+.testimonials-section{
+  background: linear-gradient(#fdfbd496,#fdfbd496), url('../images/BackPatternShuhani.svg') no-repeat,url('../images/BackPatternShuhani2.svg') no-repeat;
+  background-size: cover,auto 100%,auto 100%;
+  background-position: center,left,right;
 }
 
 .stats-grid {
@@ -963,9 +980,14 @@ textarea {
   gap: 30px;
 }
 
+.stat-card .stat-label{
+  color: var(--neon-red-dark);
+}
 .stat-card {
   position: relative;
-  background: var(--lightBrown);
+  background: url('../images/WoodLight.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 40px 30px;
   text-align: center;
   clip-path: polygon(20px 0,
@@ -1040,7 +1062,6 @@ textarea {
   font-family: var(--font-tech);
   font-size: var(--fs-6);
   letter-spacing: 2px;
-  color: var(--steel-dark);
 }
 
 /* ===== ABOUT SECTION ===== */
@@ -1109,7 +1130,9 @@ textarea {
 }
 
 .badge-inner {
-  background: var(--neon-red);
+  background: url('../images/WoodDark.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 30px;
   text-align: center;
   clip-path: polygon(15px 0, 100% 0, calc(100% - 15px) 100%, 0 100%);
@@ -1278,7 +1301,9 @@ textarea {
 
 .card-content {
   padding: 30px;
-  background-color: var(--lightBrown);
+  background: url('../images/WoodDark.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .card-title {
@@ -1287,13 +1312,14 @@ textarea {
   font-weight: 400;
   letter-spacing: 2px;
   margin-bottom: 15px;
-  color: var(--steel-light);
+  color: var(--lightBrown);
 }
 
 .card-desc {
   font-size: var(--fs-5);
   margin-bottom: 25px;
   line-height: 1.7;
+  color: var(--neon-red-bright);
 }
 
 .btn-service {
@@ -1708,7 +1734,6 @@ textarea {
 
 /* ===== TESTIMONIALS SECTION ===== */
 .testimonials-section {
-  background: #fdfbd4;
   position: relative;
 }
 
@@ -1718,14 +1743,19 @@ textarea {
 }
 
 .testimonial-card .card-content{
-  background-color: transparent;
+  background: #ffffff;
+
 }
 .testimonial-card{
-  background: #ffffff;
+  background: linear-gradient(#ffffff, #ffffff), url('../images/WoodDark.webp') no-repeat;
+  background-clip: content-box, border-box;
+  outline: 14px solid rgb(255, 255, 255);
+  outline-offset: -50px;
+  background-size: cover,cover;
   padding: 50px;
   position: relative;
   text-align: center;
-  border: 1px solid rgba(192, 88, 0, 0.12);
+  /* border: 1px solid rgba(192, 88, 0, 0.12); */
 }
 
 .quote-accent {
@@ -1762,6 +1792,9 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+.author-info {
+  border-bottom: 8px solid #ffffff;
 }
 
 .author-avatar {
@@ -2655,7 +2688,7 @@ textarea {
 
 .stat-label {
   font-size: var(--fs-6);
-  color: var(--neon-red-dark);
+  color: var(--lightBrown);
   margin-top: 15px;
   font-weight: 400;
   letter-spacing: 1px;

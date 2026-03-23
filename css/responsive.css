@@ -46,6 +46,12 @@
   .faq-visual {
     display: none;
   }
+  .stats-section {
+  background: linear-gradient(#ffffff77,#ffffff77);
+}
+.testimonials-section{
+  background: var(--lightBrown);
+}
 }
 
 @media (max-width: 767.98px) {
@@ -92,6 +98,10 @@
   .gallery-item {
     width: 100%;
   }
+  .testimonial-card{
+  outline: none;
+}
+
 }
 
 @media (max-width: 575.98px) {
@@ -110,8 +120,11 @@
   }
 
   .testimonial-card {
-    padding: 30px 20px;
+    padding: 20px 12px;
   }
+  .card-content {
+    padding: 14px;
+}
 
   .filter-buttons {
     gap: 10px;
