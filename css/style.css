@@ -2857,9 +2857,13 @@ select.industrial-input option {
   border-top: none;
 }
 
+.CONTACT_CARDS .card-content .card-title{
+  color: var(--steel)
+}
 .CONTACT_CARDS .card-content {
   padding: 0;
-  background-color: transparent;
+  background: transparent !important;
+
 }
 
 .CONTACT_CARDS .btn-service {
