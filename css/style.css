@@ -636,7 +636,6 @@ textarea {
     white-space: nowrap;
     font-size: 54px;
     color: var(--neon-red-bright);
-    font-weight: bold;
     /* -webkit-text-stroke: 6px #ffffff; */
 }
 
