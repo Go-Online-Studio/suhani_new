@@ -138,6 +138,11 @@
     bottom: 10px;
     line-height: 01;
   }
+  .hero-geometric-accent {
+  background: linear-gradient(135deg,
+      transparent 40%,
+      rgba(121, 54, 0, 0.322) 40%);
+}
 
   .heroSwiper .swiper-pagination-bullet {
     margin: 0 4px !important;
