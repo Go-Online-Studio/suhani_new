@@ -18,9 +18,9 @@
       "Zero-Joint Installation"
     ],
     "images": [
-      "https://images.unsplash.com/photo-1711418235334-8895331a6cf9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1716191300020-b52dec5b70a8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1740209475472-aa7d280f7452?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "images/ServicesPageImage/WaveBoard1.jpg",
+      "images/ServicesPageImage/WaveBoard2.jpg",
+      "images/ServicesPageImage/WaveBoard3.jpg" 
     ]
   },
   {
@@ -42,9 +42,9 @@
       "Multi-Axis Machining"
     ],
     "images": [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1170&q=80",
-      "https://images.unsplash.com/photo-1611117775350-ac3950990985?w=1170&q=80",
-      "https://images.unsplash.com/photo-1622372738946-62e02505feb3?w=1170&q=80"
+      "images/ServicesPageImage/3DWoodCarving1.jpg",
+      "images/ServicesPageImage/3DWoodCarving2.jpg",
+      "images/ServicesPageImage/3DWoodCarving3.jpg"
     ]
   },
   {
@@ -66,9 +66,9 @@
       "Batch Production"
     ],
     "images": [
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1170&q=80",
-      "https://images.unsplash.com/photo-1620619767323-b95a89183081?w=1170&q=80",
-      "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=1170&q=80"
+      "images/ServicesPageImage/2D_Carving1.jpg",
+      "images/ServicesPageImage/2D_Carving2.jpg",
+      "images/ServicesPageImage/2D_Carving3.jpg"
     ]
   },
   {
@@ -90,9 +90,9 @@
       "CAD/CAM Integration"
     ],
     "images": [
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1170&q=80",
-      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=1170&q=80",
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1170&q=80"
+      "images/ServicesPageImage/MetalCNC1.jpg",
+      "images/ServicesPageImage/MetalCNC4.jpg",
+      "images/ServicesPageImage/MetalCNC3.jpg"
     ]
   }
 ]
